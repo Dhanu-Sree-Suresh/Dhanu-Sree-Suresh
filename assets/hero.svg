@@ -23,7 +23,7 @@
   <!-- status -->
   <rect x="40" y="198" width="366" height="32" rx="16" fill="#fbe8c6"/>
   <circle class="pulse" cx="58" cy="214" r="4" fill="#E8A317"/>
-  <text x="72" y="219" font-size="13" fill="#2c3e50">currently exploring · RAG · privacy-preserving ML</text>
+  <text x="72" y="219" font-size="13" fill="#2c3e50">currently exploring · AI in aviation · ML in security</text>
 
   <!-- data → models → systems network -->
   <path class="flow" fill="none" stroke="#6092C1" stroke-opacity=".5" stroke-width="1.3"
