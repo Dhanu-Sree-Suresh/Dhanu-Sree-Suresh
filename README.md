@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center"> 
 
 <img src="assets/hero.svg" alt="AI × Data × Engineering. Building between data and intelligence." width="100%">
 
