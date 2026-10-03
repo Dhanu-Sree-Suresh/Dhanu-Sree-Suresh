@@ -6,25 +6,6 @@
     .grow { transform-box: view-box; transform-origin: 360px 230px; animation: grow 1.4s ease-out both; }
     @keyframes grow { from { transform: scale(.15); opacity: 0; } to { transform: scale(1); opacity: 1; } }
     @media (prefers-reduced-motion: reduce) { .grow { animation: none; } }
-      @media (prefers-color-scheme: dark) {
-      [fill="#f8f9fa"] { fill: #161b22; }
-      [stroke="#e3e8ec"] { stroke: #30363d; }
-      [stroke="#d5dde5"] { stroke: #3d444d; }
-      [fill="#d4e9e2"] { fill: #1d3a33; }
-      [fill="#d6e2f0"] { fill: #1e2f44; }
-      [fill="#e4eff8"] { fill: #20344a; }
-      [fill="#e3d7f5"] { fill: #2e2745; }
-      [fill="#f7dde8"] { fill: #432236; }
-      [fill="#fbe8c6"] { fill: #43351a; }
-      [fill="#f6dcd8"] { fill: #43241f; }
-      [fill="#fff"] { fill: #0d1117; }
-      text:not([fill]) { fill: #e6edf3; }
-      text[fill="#2c3e50"] { fill: #e6edf3; }
-      text.s { fill: #b6c2cf; }
-      .sep { stroke: #30363d; }
-      .p rect { fill: #1e2f44; } .d rect { fill: #20344a; } .m rect { fill: #1d3a33; }
-      .b rect { fill: #1e2f44; } .db rect { fill: #26323f; } .a rect { fill: #432236; } .f rect { fill: #2e2745; }
-    }
   </style>
 
   <rect x="1" y="1" width="718" height="438" rx="20" fill="#f8f9fa" stroke="#e3e8ec"/>
