@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" width="520" height="340" role="img" aria-labelledby="dom-title">
+  <title id="dom-title">Domains of interest: aviation, aerospace, automotive, tech</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #2c3e50; }
+    .h { font-size: 15px; font-weight: 700; }
+    .s { font-size: 12.5px; fill: #4a5d6e; }
+
+    @media (prefers-color-scheme: dark) {
+      [fill="#f8f9fa"] { fill: #161b22; }
+      [stroke="#e3e8ec"] { stroke: #30363d; }
+      [stroke="#d5dde5"] { stroke: #3d444d; }
+      [fill="#d4e9e2"] { fill: #1d3a33; }
+      [fill="#d6e2f0"] { fill: #1e2f44; }
+      [fill="#e4eff8"] { fill: #20344a; }
+      [fill="#e3d7f5"] { fill: #2e2745; }
+      [fill="#f7dde8"] { fill: #432236; }
+      [fill="#fbe8c6"] { fill: #43351a; }
+      [fill="#f6dcd8"] { fill: #43241f; }
+      [fill="#fff"] { fill: #0d1117; }
+      text:not([fill]) { fill: #e6edf3; }
+      text[fill="#2c3e50"] { fill: #e6edf3; }
+      text.s { fill: #b6c2cf; }
+      .sep { stroke: #30363d; }
+      .p rect { fill: #1e2f44; } .d rect { fill: #20344a; } .m rect { fill: #1d3a33; }
+      .b rect { fill: #1e2f44; } .db rect { fill: #26323f; } .a rect { fill: #432236; } .f rect { fill: #2e2745; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="518" height="338" rx="20" fill="#f8f9fa" stroke="#e3e8ec"/>
+  <text class="h" x="16" y="34">domains i'm drawn to</text>
+
+  <!-- Aviation -->
+  <rect x="16" y="56" width="236" height="112" rx="14" fill="#d6e2f0"/>
+  <circle cx="38" cy="83" r="5" fill="#6092C1"/><text class="h" x="52" y="88">Aviation</text>
+  <text class="s" x="34" y="112">operations analytics</text>
+  <text class="s" x="34" y="130">safety &amp; reliability</text>
+  <text class="s" x="34" y="148">demand forecasting</text>
+
+  <!-- Aerospace -->
+  <rect x="268" y="56" width="236" height="112" rx="14" fill="#e3d7f5"/>
+  <circle cx="290" cy="83" r="5" fill="#8C7BB8"/><text class="h" x="304" y="88">Aerospace</text>
+  <text class="s" x="286" y="112">telemetry &amp; sensor data</text>
+  <text class="s" x="286" y="130">simulation &amp; modelling</text>
+  <text class="s" x="286" y="148">reliability engineering</text>
+
+  <!-- Automotive -->
+  <rect x="16" y="184" width="236" height="112" rx="14" fill="#f7dde8"/>
+  <circle cx="38" cy="211" r="5" fill="#D46087"/><text class="h" x="52" y="216">Automotive</text>
+  <text class="s" x="34" y="240">vehicle &amp; sensor data</text>
+  <text class="s" x="34" y="258">predictive maintenance</text>
+  <text class="s" x="34" y="276">perception &amp; autonomy</text>
+
+  <!-- Tech -->
+  <rect x="268" y="184" width="236" height="112" rx="14" fill="#d4e9e2"/>
+  <circle cx="290" cy="211" r="5" fill="#54B39A"/><text class="h" x="304" y="216">Tech</text>
+  <text class="s" x="286" y="240">LLM &amp; RAG applications</text>
+  <text class="s" x="286" y="258">data platforms</text>
+  <text class="s" x="286" y="276">intelligent products</text>
+
+  <text x="260" y="322" text-anchor="middle" font-size="11.5" fill="#6B8DAF">interests I'm building toward · not claimed experience</text>
+</svg>
