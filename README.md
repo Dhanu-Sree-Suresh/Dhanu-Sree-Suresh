@@ -77,7 +77,7 @@ engineering have to behave like one system.
 
 **Applications** · `Flask` `Jinja2` `FastAPI` `Streamlit` `HTML` `CSS`
 
-**Focus areas** · NLP · RAG · Data Engineering · Federated Learning · Differential Privacy · Distributed Computing · Statistical Analysis
+**Focus areas** · NLP · RAG · Data Engineering · Federated Learning · Aviation · Distributed Computing · Statistical Analysis
 
 </details>
 
