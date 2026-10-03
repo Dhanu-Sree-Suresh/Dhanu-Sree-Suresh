@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 248" width="480" height="248" role="img" aria-labelledby="wf-title">
+  <title id="wf-title">Build loop: Question, Data, Explore, Model, Evaluate, Engineer, Deploy, Iterate, back to Question</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #2c3e50; text-anchor: middle; }
+    .n { font-size: 15px; font-weight: 700; }
+    .lb { font-size: 13px; font-weight: 600; }
+    .ln { fill: none; stroke: #8a9bab; stroke-width: 1.6; stroke-dasharray: 4 5; animation: flow 2.5s linear infinite; }
+    .loop { stroke: #E8A317; }
+    @keyframes flow { to { stroke-dashoffset: -36; } }
+    @media (prefers-reduced-motion: reduce) { .ln { animation: none; } }
+  </style>
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#8a9bab"/></marker>
+    <marker id="a2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#E8A317"/></marker>
+  </defs>
+
+  <rect x="1" y="1" width="478" height="246" rx="20" fill="#f8f9fa" stroke="#e3e8ec"/>
+
+  <!-- connectors -->
+  <path class="ln" marker-end="url(#a1)" d="M88 60H152"/>
+  <path class="ln" marker-end="url(#a1)" d="M208 60H272"/>
+  <path class="ln" marker-end="url(#a1)" d="M328 60H392"/>
+  <path class="ln" marker-end="url(#a1)" d="M420 88V152"/>
+  <path class="ln" marker-end="url(#a1)" d="M392 180H328"/>
+  <path class="ln" marker-end="url(#a1)" d="M272 180H208"/>
+  <path class="ln" marker-end="url(#a1)" d="M152 180H88"/>
+  <path class="ln loop" marker-end="url(#a2)" d="M60 152V88"/>
+
+  <!-- row 1 -->
+  <circle cx="60" cy="60" r="28" fill="#d4e9e2" stroke="#54B39A" stroke-width="1.5"/><text class="n" x="60" y="65">1</text><text class="lb" x="60" y="22">Question</text>
+  <circle cx="180" cy="60" r="28" fill="#d6e2f0" stroke="#6092C1" stroke-width="1.5"/><text class="n" x="180" y="65">2</text><text class="lb" x="180" y="22">Data</text>
+  <circle cx="300" cy="60" r="28" fill="#e4eff8" stroke="#7FAFD4" stroke-width="1.5"/><text class="n" x="300" y="65">3</text><text class="lb" x="300" y="22">Explore</text>
+  <circle cx="420" cy="60" r="28" fill="#e3d7f5" stroke="#8C7BB8" stroke-width="1.5"/><text class="n" x="420" y="65">4</text><text class="lb" x="420" y="22">Model</text>
+
+  <!-- row 2 -->
+  <circle cx="420" cy="180" r="28" fill="#f6dcd8" stroke="#D97C6F" stroke-width="1.5"/><text class="n" x="420" y="185">5</text><text class="lb" x="420" y="232">Evaluate</text>
+  <circle cx="300" cy="180" r="28" fill="#d6e2f0" stroke="#6092C1" stroke-width="1.5"/><text class="n" x="300" y="185">6</text><text class="lb" x="300" y="232">Engineer</text>
+  <circle cx="180" cy="180" r="28" fill="#f7dde8" stroke="#D46087" stroke-width="1.5"/><text class="n" x="180" y="185">7</text><text class="lb" x="180" y="232">Deploy</text>
+  <circle cx="60" cy="180" r="28" fill="#fbe8c6" stroke="#E8A317" stroke-width="1.5"/><text class="n" x="60" y="185">8</text><text class="lb" x="60" y="232">Iterate</text>
+</svg>
