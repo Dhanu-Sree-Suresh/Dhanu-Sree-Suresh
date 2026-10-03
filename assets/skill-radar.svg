@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" width="720" height="440" role="img" aria-labelledby="radar-title radar-desc">
+  <title id="radar-title">Self-assessed skill radar</title>
+  <desc id="radar-desc">AI/ML 95, NLP 92, Python 95, Data Science 90, Statistics 85, Big Data 90, Data Engineering 95, Web Applications 85. Personal skill map, not a benchmark.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #2c3e50; font-size: 13px; }
+    .grow { transform-box: view-box; transform-origin: 360px 230px; animation: grow 1.4s ease-out both; }
+    @keyframes grow { from { transform: scale(.15); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .grow { animation: none; } }
+  </style>
+
+  <rect x="1" y="1" width="718" height="438" rx="20" fill="#f8f9fa" stroke="#e3e8ec"/>
+  <text x="28" y="36" font-size="15" font-weight="700">skill map</text>
+
+  <!-- rings -->
+  <g fill="none" stroke="#d5dde5" stroke-width="1">
+    <polygon points="360,80 466.07,123.93 510,230 466.07,336.07 360,380 253.93,336.07 210,230 253.93,123.93"/>
+    <polygon points="360,117.5 439.55,150.45 472.5,230 439.55,309.55 360,342.5 280.45,309.55 247.5,230 280.45,150.45"/>
+    <polygon points="360,155 413.03,176.97 435,230 413.03,283.03 360,305 306.97,283.03 285,230 306.97,176.97"/>
+    <polygon points="360,192.5 386.52,203.48 397.5,230 386.52,256.52 360,267.5 333.48,256.52 322.5,230 333.48,203.48"/>
+  </g>
+  <!-- axes -->
+  <g stroke="#d5dde5" stroke-width="1">
+    <line x1="360" y1="230" x2="360" y2="80"/><line x1="360" y1="230" x2="466.07" y2="123.93"/>
+    <line x1="360" y1="230" x2="510" y2="230"/><line x1="360" y1="230" x2="466.07" y2="336.07"/>
+    <line x1="360" y1="230" x2="360" y2="380"/><line x1="360" y1="230" x2="253.93" y2="336.07"/>
+    <line x1="360" y1="230" x2="210" y2="230"/><line x1="360" y1="230" x2="253.93" y2="123.93"/>
+  </g>
+
+  <!-- data -->
+  <g class="grow">
+    <polygon points="360,87.5 457.58,132.42 502.5,230 455.46,325.46 360,357.5 264.54,325.46 217.5,230 269.84,139.84"
+             fill="#54B39A" fill-opacity=".22" stroke="#54B39A" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="360" cy="87.5" r="5.5" fill="#54B39A"/>
+    <circle cx="457.58" cy="132.42" r="5.5" fill="#8C7BB8"/>
+    <circle cx="502.5" cy="230" r="5.5" fill="#7FB8A4"/>
+    <circle cx="455.46" cy="325.46" r="5.5" fill="#7FAFD4"/>
+    <circle cx="360" cy="357.5" r="5.5" fill="#E8A317"/>
+    <circle cx="264.54" cy="325.46" r="5.5" fill="#6092C1"/>
+    <circle cx="217.5" cy="230" r="5.5" fill="#6092C1"/>
+    <circle cx="269.84" cy="139.84" r="5.5" fill="#D46087"/>
+  </g>
+
+  <!-- labels -->
+  <text x="360" y="62" text-anchor="middle">AI / ML <tspan font-weight="700">95</tspan></text>
+  <text x="485" y="108">NLP <tspan font-weight="700">92</tspan></text>
+  <text x="530" y="235">Python <tspan font-weight="700">95</tspan></text>
+  <text x="485" y="358">Data Science <tspan font-weight="700">90</tspan></text>
+  <text x="360" y="406" text-anchor="middle">Statistics <tspan font-weight="700">85</tspan></text>
+  <text x="235" y="358" text-anchor="end">Big Data <tspan font-weight="700">90</tspan></text>
+  <text x="190" y="235" text-anchor="end">Data Engineering <tspan font-weight="700">95</tspan></text>
+  <text x="235" y="108" text-anchor="end">Web Applications <tspan font-weight="700">85</tspan></text>
+
+  <text x="360" y="430" text-anchor="middle" font-size="11.5" fill="#6B8DAF" style="fill:#6B8DAF">self-assessed technical focus · personal skill map · not a benchmark</text>
+</svg>
