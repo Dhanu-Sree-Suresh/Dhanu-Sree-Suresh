@@ -162,8 +162,8 @@ low, leave this disabled; the profile works without it.
 
 <sub>data → intelligence → something useful</sub>
 
-[LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE) ·
-[Email](mailto:YOUR_EMAIL@example.com) ·
-[GitHub](https://github.com/YOUR_USERNAME)
+[LinkedIn](https://www.linkedin.com/in/dhanu-sree-suresh-846614327/) ·
+[Email](mailto:sdhanusree@gmail.com) ·
+[GitHub](https://github.com/Dhanu-Sree-Suresh)
 
 </div>
